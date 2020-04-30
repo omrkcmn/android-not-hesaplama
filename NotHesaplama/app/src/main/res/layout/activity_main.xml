@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnHesap"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="436dp"
+        android:background="@drawable/btn_hesapla"
+
+        android:text="Hesapla"
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="224dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="48dp"
+        android:layout_x="71dp"
+        android:layout_y="-7dp"
+        android:background="@drawable/thinking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtSonuc"
+        android:layout_width="138dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="356dp"
+        android:layout_x="156dp"
+        android:layout_y="314dp"
+        android:textColor="#FFFF"
+
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtVize"
+        android:layout_width="213dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/text_view"
+        android:ems="10"
+        android:hint="Vize Notu"
+        android:textAlignment="center"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,RtlCompat"
+        android:gravity="center_vertical" />
+
+    <EditText
+        android:id="@+id/txtVizeyuzde"
+        android:layout_width="59dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/text_view"
+        android:ems="10"
+        android:hint="%"
+        android:textAlignment="center"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtFinalyuzde"
+        android:layout_width="59dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="276dp"
+        android:background="@drawable/text_view"
+        android:ems="10"
+        android:hint="%"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtFinalnot"
+        android:layout_width="213dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="276dp"
+        android:background="@drawable/text_view"
+        android:ems="10"
+        android:hint="Final Notu"
+        android:textAlignment="center"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:gravity="center_vertical" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
